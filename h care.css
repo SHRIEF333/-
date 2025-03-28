@@ -1,0 +1,54 @@
+.h1{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: aqua;
+    outline: 10px solid rgb(41, 160, 200);
+    
+}
+
+
+
+.img1{
+    height: 160px;
+    
+    margin-left: 650px;
+    
+
+    padding-bottom: 100px;
+    
+
+
+
+    
+}
+
+
+.h2{
+    margin-left: 650px;
+    
+    margin-top: 100px;
+
+    background-color: aqua;
+
+    
+}
+
+
+.button1{
+
+     text-align: center;
+}
+
+
+.h{
+    text-align: center;
+    background-color:aquamarine;
+
+}
+
+
+.img2{
+    margin-left: 670px;
+    height: 200px;
+}
+

@@ -1,0 +1,43 @@
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(49, 51, 226);
+}
+
+
+
+
+h1{
+    text-align: center;
+    background-color: rgb(63, 148, 108);
+    outline: 10px solid green;
+}
+
+
+
+.b{
+    margin-left: 560px;
+    
+}
+
+
+.img{
+    margin-left: 1400px;
+    
+}
+
+
+.c{
+    margin-left: 1290px;
+}
+
+
+
+
+.qr{
+    height: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}

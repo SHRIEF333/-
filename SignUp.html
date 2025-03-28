@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>تسجيل الدخول</title>
+   <style>
+    body{
+      display:flex ;
+      flex-wrap: wrap;
+      direction: rtl;
+      height: 100%;
+    }
+    .part1{
+        width: 50%;
+        margin-top: 100px;  
+    }
+    .part2{
+        width: 50%;  
+    }
+
+    h1{
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+        color: #4d7396;   
+        font-family: "Lateef", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 50px;
+    }
+    form{
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    left: 20px;   
+    }
+    
+    form input {
+    padding: 5px 10px;
+    width: 400px; 
+    display:block;
+    margin-top:20px;
+    margin-right: 220px;
+    height: 40px;
+    }
+    
+  
+    .part2 img {
+      width:85%;
+      height: 80%;
+      position: relative;
+      right: 20px;
+      top: 100px;  
+    }
+    .part1 img {
+        position: absolute;
+        right: 30px;
+        top: -20px;
+        width:210px ;
+
+    }
+    .button{
+      background-color: #4d7396b6  ;
+      border: none;
+      color: white;
+      padding: 7px 12px; 
+      margin-right:220px  ;
+      font-size: 130%;
+      font-weight: bold;
+      width: 410px; 
+    }
+
+
+    select{
+       margin-top: 20px;
+       width: 420px;
+       height: 40px;
+       margin-right: 125px ;
+       font-size: x-large;
+    }
+    input::placeholder { 
+        font-size: 170%; 
+        font-weight: bold; 
+        position: relative;
+        top: 5px;
+       
+    }
+  
+    </style>
+</head>
+
+
+<body>
+    <div class="part1">
+    <h1> إنشاء الحساب</h1>
+    <img src="logo1.jpg">
+    <form>
+        <input type="text" placeholder="الاسم بالكامل" required name="">
+        <input type="email"placeholder="عنوان البريد الالكتروني" required>
+        <input type="text" placeholder="رقم الهاتف" required>
+        <input type="password" placeholder="كلمه المرور" required>
+        <input type="date"required >
+        <select>
+            <option>طبيب</option>
+            <option>مريض</option>
+        </select>
+       <input type="submit" value="سجل" class="button">
+    </form>
+     </div>
+    
+     <div class="part2"> 
+        <img src="ll.gif" alt="animated image"> 
+    </div>
+</body>
